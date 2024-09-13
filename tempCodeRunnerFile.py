@@ -1,0 +1,40 @@
+import turtle
+
+
+# make an eyes
+turtle.color("red")
+turtle.Screen().bgcolor("black")
+turtle.width(14)
+turtle.forward(150)
+turtle.right(144)
+turtle.forward(150)
+turtle.right(144)
+turtle.forward(150)
+turtle.right(144)
+turtle.forward(150)
+turtle.right(144)
+turtle.forward(150)
+turtle.back(150)
+turtle.penup()
+turtle.back(10)
+turtle.left(80)
+turtle.forward(10)
+turtle.right(70)
+turtle.pendown()
+turtle.right(120)
+turtle.circle(90)
+
+#make eyes
+turtle.color("white")
+turtle.penup()
+turtle.back(45)
+turtle.pendown()
+turtle.right(30)
+turtle.circle(180,60)
+turtle.left(60)
+turtle.circle(220,55)
+turtle.circle(220,55)
+turtle.left(70)
+turtle.circle(240,58)
+
+turtle.mainloop()
